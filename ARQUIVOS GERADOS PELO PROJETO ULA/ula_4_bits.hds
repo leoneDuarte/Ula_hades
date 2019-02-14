@@ -1,0 +1,50 @@
+# hades.models.Design file
+#  
+[name] ula_4_bit
+[components]
+hades.models.io.Ipin A4 36000 13200 @N 1001  U
+hades.models.io.Ipin carry_in_0 36000 16200 @N 1001  U
+hades.models.io.Ipin A3 36000 10800 @N 1001  U
+hades.models.io.Ipin A2 36000 8400 @N 1001  U
+hades.models.io.Ipin A1 36000 6000 @N 1001  U
+hades.models.Design ula_2_BITS 47400 5400 @N 1001 C:\u005cUsers\u005cGLORIA\u005cDesktop\u005culas/ula_2_bits.hds
+hades.models.io.Ipin b_invertido 36000 17400 @N 1001  U
+hades.models.io.Ipin B4 36000 14400 @N 1001  U
+hades.models.io.Ipin B3 36000 12000 @N 1001  U
+hades.models.io.Ipin B2 36000 9600 @N 1001  U
+hades.models.io.Ipin B1 36000 7200 @N 1001  U
+hades.models.io.Ipin op2 36000 21000 @N 1001  U
+hades.models.io.Ipin op1 36000 19800 @N 1001  U
+hades.models.io.Opin set_ula_4 63000 16800 @N 1001 5.0E-9
+hades.models.io.Opin saida_ula_4 63000 15600 @N 1001 5.0E-9
+hades.models.io.Opin saida_ula_3 63000 14400 @N 1001 5.0E-9
+hades.models.io.Opin saida_ula_2 57000 7200 @N 1001 5.0E-9
+hades.models.io.Opin saida_ula_1 57000 6000 @N 1001 5.0E-9
+hades.models.Design ula_2_BITS1 54600 15000 @N 1001 C:\u005cUsers\u005cGLORIA\u005cDesktop\u005culas/ula_2_bits.hds
+hades.models.io.Opin carryout_ula_4 63000 18600 @N 1001 5.0E-9
+hades.models.io.Ipin slt 36000 18600 @N 1001  U
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 A3 Y ula_2_BITS1 A1 3 2 36000 10800 38400 10800 2 38400 10800 38400 15600 2 38400 15600 54600 15600 0 
+hades.signals.SignalStdLogic1164 n8 3 op2 Y ula_2_BITS op2 ula_2_BITS1 op2 6 2 36000 21000 45600 21000 2 45600 21000 45600 9600 2 45600 9600 47400 9600 2 45600 21000 48000 21000 2 48000 21000 48000 19200 2 48000 19200 54600 19200 1 45600 21000 
+hades.signals.SignalStdLogic1164 n7 3 op1 Y ula_2_BITS op1 ula_2_BITS1 op1 7 2 36000 19800 45000 19800 2 45000 19800 45000 9000 2 45000 9000 47400 9000 2 45000 19800 46200 19800 2 46200 19800 46200 19200 2 46200 19200 46200 18600 2 46200 18600 54600 18600 1 45000 19800 
+hades.signals.SignalStdLogic1164 n6 2 slt Y ula_2_BITS slt 3 2 36000 18600 44400 18600 2 44400 18600 44400 8400 2 44400 8400 47400 8400 0 
+hades.signals.SignalStdLogic1164 n5 3 b_invertido Y ula_2_BITS b_invertido ula_2_BITS1 b_invertido 4 2 36000 17400 40200 17400 2 40200 17400 40200 7800 2 40200 7800 47400 7800 2 40200 17400 54600 17400 1 40200 17400 
+hades.signals.SignalStdLogic1164 n19 2 ula_2_BITS1 set_ula2 set_ula_4 A 1 2 59400 16800 63000 16800 0 
+hades.signals.SignalStdLogic1164 n4 2 carry_in_0 Y ula_2_BITS carry_in_0 4 2 36000 16200 36600 16200 2 36600 16200 37800 16200 2 37800 16200 37800 7200 2 37800 7200 47400 7200 0 
+hades.signals.SignalStdLogic1164 n18 2 ula_2_BITS1 saida_ula_2 saida_ula_4 A 3 2 59400 16200 61200 16200 2 61200 16200 61200 15600 2 61200 15600 63000 15600 0 
+hades.signals.SignalStdLogic1164 n3 2 B2 Y ula_2_BITS B2 3 2 36000 9600 43200 9600 2 43200 9600 43200 10800 2 43200 10800 47400 10800 0 
+hades.signals.SignalStdLogic1164 n17 2 ula_2_BITS1 saida_ula_1 saida_ula_3 A 3 2 59400 15600 60600 15600 2 60600 15600 60600 14400 2 60600 14400 63000 14400 0 
+hades.signals.SignalStdLogic1164 n2 2 A2 Y ula_2_BITS A2 3 2 36000 8400 43800 8400 2 43800 8400 43800 10200 2 43800 10200 47400 10200 0 
+hades.signals.SignalStdLogic1164 n16 2 ula_2_BITS saida_ula_2 saida_ula_2 A 3 2 52200 6600 55800 6600 2 55800 6600 55800 7200 2 55800 7200 57000 7200 0 
+hades.signals.SignalStdLogic1164 n1 2 B1 Y ula_2_BITS B1 3 2 36000 7200 36600 7200 2 36600 7200 36600 6600 2 36600 6600 47400 6600 0 
+hades.signals.SignalStdLogic1164 n15 2 ula_2_BITS saida_ula_1 saida_ula_1 A 1 2 52200 6000 57000 6000 0 
+hades.signals.SignalStdLogic1164 n0 2 A1 Y ula_2_BITS A1 1 2 36000 6000 47400 6000 0 
+hades.signals.SignalStdLogic1164 n14 2 ula_2_BITS carry_out_2 ula_2_BITS1 carry_in_0 3 2 52200 7800 53400 7800 2 53400 7800 53400 16800 2 53400 16800 54600 16800 0 
+hades.signals.SignalStdLogic1164 n13 2 ula_2_BITS set_ula2 ula_2_BITS1 slt 3 2 52200 7200 52800 7200 2 52800 7200 52800 18000 2 52800 18000 54600 18000 0 
+hades.signals.SignalStdLogic1164 n12 2 B4 Y ula_2_BITS1 B2 3 2 36000 14400 48600 14400 2 48600 14400 48600 20400 2 48600 20400 54600 20400 0 
+hades.signals.SignalStdLogic1164 n11 2 A4 Y ula_2_BITS1 A2 3 2 36000 13200 49200 13200 2 49200 13200 49200 19800 2 49200 19800 54600 19800 0 
+hades.signals.SignalStdLogic1164 n10 2 B3 Y ula_2_BITS1 B1 3 2 36000 12000 39600 12000 2 39600 12000 39600 16200 2 39600 16200 54600 16200 0 
+hades.signals.SignalStdLogic1164 n20 2 ula_2_BITS1 carry_out_2 carryout_ula_4 A 3 2 59400 17400 61200 17400 2 61200 17400 61200 18600 2 61200 18600 63000 18600 0 
+[end signals]
+[end]

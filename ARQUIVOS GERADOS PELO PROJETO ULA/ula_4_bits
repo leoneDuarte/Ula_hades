@@ -1,0 +1,22 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.io.Ipin i8 9000 15000 @N 1001 null U
+hades.models.io.Ipin i7 9000 13200 @N 1001 null U
+hades.models.io.Ipin i6 9000 12000 @N 1001 null U
+hades.models.io.Ipin A3 9000 3000 @N 1001 null U
+hades.models.io.Ipin i5 9000 10200 @N 1001 null U
+hades.models.io.Ipin i4 9000 9000 @N 1001 null U
+hades.models.io.Ipin i3 9000 7200 @N 1001 null U
+hades.models.io.Ipin i2 9000 6000 @N 1001 null U
+hades.models.io.Ipin i1 9000 4200 @N 1001 null U
+hades.models.Design ula_2_BITS1 31200 13200 @N 1001 C:\u005cUsers\u005cGLORIA\u005cDesktop\u005culas/ula_2_bits.hds
+hades.models.io.Ipin i11 9000 18600 @N 1001 null U
+hades.models.io.Ipin i10 9000 17400 @N 1001 null U
+hades.models.Design ula_2_BITS 22800 3000 @N 1001 C:\u005cUsers\u005cGLORIA\u005cDesktop\u005culas/ula_2_bits.hds
+hades.models.io.Ipin i9 9000 16200 @N 1001 null U
+[end components]
+[signals]
+[end signals]
+[end]

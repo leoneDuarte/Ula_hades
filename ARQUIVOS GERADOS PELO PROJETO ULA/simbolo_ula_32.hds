@@ -1,0 +1,73 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.io.Ipin i53 -14400 65400 @N 1001 null U
+hades.models.io.Ipin i21 -14400 27000 @N 1001 null U
+hades.models.io.Ipin i52 -18000 65400 @N 1001 null U
+hades.models.io.Ipin i20 -18000 27000 @N 1001 null U
+hades.models.io.Ipin i51 -14400 63000 @N 1001 null U
+hades.models.io.Ipin i50 -18000 63000 @N 1001 null U
+hades.models.io.Ipin i9 -14400 12600 @N 1001 null U
+hades.models.io.Ipin i8 -18000 12600 @N 1001 null U
+hades.models.io.Ipin i7 -14400 10200 @N 1001 null U
+hades.models.io.Ipin i6 -18000 10200 @N 1001 null U
+hades.models.io.Ipin i5 -14400 7800 @N 1001 null U
+hades.models.io.Ipin i4 -18000 7800 @N 1001 null U
+hades.models.io.Ipin i3 -14400 5400 @N 1001 null U
+hades.models.io.Ipin i2 -18000 5400 @N 1001 null U
+hades.models.io.Ipin i1 -14400 3000 @N 1001 null U
+hades.models.io.Ipin i0 -18000 3000 @N 1001 null U
+hades.models.io.Ipin i19 -14400 24600 @N 1001 null U
+hades.models.io.Ipin i18 -18000 24600 @N 1001 null U
+hades.models.io.Ipin i49 -14400 60600 @N 1001 null U
+hades.models.io.Ipin i17 -14400 22200 @N 1001 null U
+hades.models.io.Ipin i48 -18000 60600 @N 1001 null U
+hades.models.io.Ipin i16 -18000 22200 @N 1001 null U
+hades.models.io.Ipin i47 -14400 58200 @N 1001 null U
+hades.models.io.Ipin i15 -14400 19800 @N 1001 null U
+hades.models.io.Ipin i46 -18000 58200 @N 1001 null U
+hades.models.io.Ipin i14 -18000 19800 @N 1001 null U
+hades.models.io.Ipin i45 -14400 55800 @N 1001 null U
+hades.models.io.Ipin i13 -14400 17400 @N 1001 null U
+hades.models.io.Ipin i44 -18000 55800 @N 1001 null U
+hades.models.io.Ipin i12 -18000 17400 @N 1001 null U
+hades.models.io.Ipin i43 -14400 53400 @N 1001 null U
+hades.models.io.Ipin i11 -14400 15000 @N 1001 null U
+hades.models.io.Ipin i42 -18000 53400 @N 1001 null U
+hades.models.io.Ipin i10 -18000 15000 @N 1001 null U
+hades.models.io.Ipin i41 -14400 51000 @N 1001 null U
+hades.models.io.Ipin i40 -18000 51000 @N 1001 null U
+hades.models.io.Ipin i39 -14400 48600 @N 1001 null U
+hades.models.io.Ipin i38 -18000 48600 @N 1001 null U
+hades.models.io.Ipin i37 -14400 46200 @N 1001 null U
+hades.models.io.Ipin i36 -18000 46200 @N 1001 null U
+hades.models.io.Ipin i35 -14400 43800 @N 1001 null U
+hades.models.io.Ipin i34 -18000 43800 @N 1001 null U
+hades.models.io.Ipin i33 -14400 41400 @N 1001 null U
+hades.models.io.Ipin i32 -18000 41400 @N 1001 null U
+hades.models.io.Ipin i63 -14400 77400 @N 1001 null U
+hades.models.io.Ipin i31 -14400 39000 @N 1001 null U
+hades.models.io.Ipin i62 -18000 77400 @N 1001 null U
+hades.models.io.Ipin i30 -18000 39000 @N 1001 null U
+hades.models.io.Ipin i61 -14400 75000 @N 1001 null U
+hades.models.io.Ipin i60 -18000 75000 @N 1001 null U
+hades.models.io.Ipin i29 -14400 36600 @N 1001 null U
+hades.models.io.Ipin i28 -18000 36600 @N 1001 null U
+hades.models.io.Ipin i59 -14400 72600 @N 1001 null U
+hades.models.io.Ipin i27 -14400 34200 @N 1001 null U
+hades.models.io.Ipin i58 -18000 72600 @N 1001 null U
+hades.models.io.Ipin i26 -18000 34200 @N 1001 null U
+hades.models.io.Ipin i57 -14400 70200 @N 1001 null U
+hades.models.io.Ipin i25 -14400 31800 @N 1001 null U
+hades.models.io.Ipin i56 -18000 70200 @N 1001 null U
+hades.models.io.Ipin i24 -18000 31800 @N 1001 null U
+hades.models.Design ULA_32_bits 37800 18000 @N 1001 C:\u005cUsers\u005cGLORIA\u005cDesktop\u005culas/ula_32Bits.hds
+hades.models.io.Ipin i55 -14400 67800 @N 1001 null U
+hades.models.io.Ipin i23 -14400 29400 @N 1001 null U
+hades.models.io.Ipin i54 -18000 67800 @N 1001 null U
+hades.models.io.Ipin i22 -18000 29400 @N 1001 null U
+[end components]
+[signals]
+[end signals]
+[end]
